@@ -1,3 +1,6 @@
 [submodule "docker-ce"]
 	path = docker-ce
 	url = https://github.com/rclc/docker-ce.git
+[submodule "swarmkit"]
+	path = swarmkit
+	url = https://github.com/rclc/swarmkit.git
