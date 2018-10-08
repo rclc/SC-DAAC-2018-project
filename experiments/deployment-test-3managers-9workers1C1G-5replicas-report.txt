@@ -1,0 +1,177 @@
+NUM_REPLICAS = 5
+Sat Oct  6 02:35:34 CDT 2018
+ROUND 1
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+lw7o4eeib8b6        redis.1             redis:3.0.6         docker-vm09         Running             Running 16 seconds ago                       
+lyz1l6f5qkpv        redis.2             redis:3.0.6         docker-vm11         Running             Running 16 seconds ago                       
+hnpbdet3mohh        redis.3             redis:3.0.6         docker-vm08         Running             Running 7 seconds ago                        
+6o44ej7iya4g        redis.4             redis:3.0.6         docker-vm05         Running             Running 5 seconds ago                        
+r2r16k8bqk9h        redis.5             redis:3.0.6         docker-vm10         Running             Running 8 seconds ago                        
+ROUND 2
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+2wxa5vulriri        redis.1             redis:3.0.6         docker-vm08         Running             Running 10 seconds ago                       
+wrn3e2zwgb69        redis.2             redis:3.0.6         docker-vm05         Running             Running 5 seconds ago                        
+lpxwfvw0gyos        redis.3             redis:3.0.6         docker-vm12         Running             Running 11 seconds ago                       
+jm5guxqwlmt5        redis.4             redis:3.0.6         docker-vm09         Running             Running 9 seconds ago                        
+u84atpq8xf4t        redis.5             redis:3.0.6         docker-vm11         Running             Running 10 seconds ago                       
+ROUND 3
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+jbek6zk4gmf2        redis.1             redis:3.0.6         docker-vm11         Running             Running 5 seconds ago                        
+onfairv54xv6        redis.2             redis:3.0.6         docker-vm06         Running             Running 13 seconds ago                       
+s7hpvwatt8qa        redis.3             redis:3.0.6         docker-vm07         Running             Running 13 seconds ago                       
+2jj1aoi7ucig        redis.4             redis:3.0.6         docker-vm04         Running             Running 8 seconds ago                        
+5h34d6e6ul0g        redis.5             redis:3.0.6         docker-vm09         Running             Running 7 seconds ago                        
+ROUND 4
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+ob9jhb6lhj7h        redis.1             redis:3.0.6         docker-vm07         Running             Running 7 seconds ago                        
+rmbq3o6bxlvy        redis.2             redis:3.0.6         docker-vm04         Running             Running 5 seconds ago                        
+onolx70hv5io        redis.3             redis:3.0.6         docker-vm06         Running             Running 7 seconds ago                        
+gcv2f8k94a9s        redis.4             redis:3.0.6         docker-vm12         Running             Running 10 seconds ago                       
+ueyn53lqsl79        redis.5             redis:3.0.6         docker-vm10         Running             Running 10 seconds ago                       
+ROUND 5
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+sspplmnvkg58        redis.1             redis:3.0.6         docker-vm06         Running             Running 13 seconds ago                       
+l1k5ppuluj11        redis.2             redis:3.0.6         docker-vm07         Running             Running 14 seconds ago                       
+veah56nhh1qj        redis.3             redis:3.0.6         docker-vm10         Running             Running 5 seconds ago                        
+adngcibmstti        redis.4             redis:3.0.6         docker-vm09         Running             Running 26 seconds ago                       
+0kzegvpwk4ke        redis.5             redis:3.0.6         docker-vm04         Running             Running 6 seconds ago                        
+ROUND 6
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+9sbk79e99apx        redis.1             redis:3.0.6         docker-vm04         Running             Running 6 seconds ago                        
+icjfvbk5nr42        redis.2             redis:3.0.6         docker-vm06         Running             Running 9 seconds ago                        
+4xnjg5liiobx        redis.3             redis:3.0.6         docker-vm05         Running             Running 11 seconds ago                       
+m5esibcjfu8i        redis.4             redis:3.0.6         docker-vm12         Running             Running 8 seconds ago                        
+i7xwrnff3sar        redis.5             redis:3.0.6         docker-vm07         Running             Running 11 seconds ago                       
+ROUND 7
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+zfq1dp3wq93b        redis.1             redis:3.0.6         docker-vm07         Running             Running 14 seconds ago                       
+pndw3vh3rdjv        redis.2             redis:3.0.6         docker-vm04         Running             Running 7 seconds ago                        
+t1l62kyn1zjk        redis.3             redis:3.0.6         docker-vm06         Running             Running 14 seconds ago                       
+4uq28ymwxxr8        redis.4             redis:3.0.6         docker-vm05         Running             Running 9 seconds ago                        
+tbw23vlw6gbg        redis.5             redis:3.0.6         docker-vm12         Running             Running 5 seconds ago                        
+ROUND 8
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+twgdnn0alikc        redis.1             redis:3.0.6         docker-vm04         Running             Running 5 seconds ago                        
+xrn6ne9wunxd        redis.2             redis:3.0.6         docker-vm06         Running             Running 13 seconds ago                       
+p317h676yavw        redis.3             redis:3.0.6         docker-vm08         Running             Running 23 seconds ago                       
+llk5ar6n2chl        redis.4             redis:3.0.6         docker-vm05         Running             Running 7 seconds ago                        
+jae79noi1tgk        redis.5             redis:3.0.6         docker-vm07         Running             Running 15 seconds ago                       
+ROUND 9
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+kmhcrsv9pm51        redis.1             redis:3.0.6         docker-vm12         Running             Running 11 seconds ago                       
+njho84gv0has        redis.2             redis:3.0.6         docker-vm10         Running             Running 11 seconds ago                       
+bylerpirjv3j        redis.3             redis:3.0.6         docker-vm07         Running             Running 9 seconds ago                        
+2bjfze8p81oi        redis.4             redis:3.0.6         docker-vm04         Running             Running 6 seconds ago                        
+xwqo3ivmjjxv        redis.5             redis:3.0.6         docker-vm06         Running             Running 8 seconds ago                        
+ROUND 10
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+ieu137ubhl1s        redis.1             redis:3.0.6         docker-vm06         Running             Running 8 seconds ago                        
+4vvqzpxyu108        redis.2             redis:3.0.6         docker-vm08         Running             Running 20 seconds ago                       
+usl4r2xrxcty        redis.3             redis:3.0.6         docker-vm05         Running             Running 11 seconds ago                       
+8hhxoexzxgdj        redis.4             redis:3.0.6         docker-vm07         Running             Running 8 seconds ago                        
+y2exmjobxhsh        redis.5             redis:3.0.6         docker-vm04         Running             Running 6 seconds ago                        
+ROUND 11
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+rrhd22nfv4d5        redis.1             redis:3.0.6         docker-vm04         Running             Running 6 seconds ago                        
+q1myo3ary8u2        redis.2             redis:3.0.6         docker-vm06         Running             Running 13 seconds ago                       
+lxokv63600fs        redis.3             redis:3.0.6         docker-vm08         Running             Running 15 seconds ago                       
+187bhv4xzm2w        redis.4             redis:3.0.6         docker-vm05         Running             Running 7 seconds ago                        
+wxykfz0j3zcv        redis.5             redis:3.0.6         docker-vm07         Running             Running 17 seconds ago                       
+ROUND 12
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+z3b2i0fh8bk1        redis.1             redis:3.0.6         docker-vm08         Running             Running 8 seconds ago                        
+zxprzdvq4qjf        redis.2             redis:3.0.6         docker-vm05         Running             Running 5 seconds ago                        
+vj4umcey7bdq        redis.3             redis:3.0.6         docker-vm12         Running             Running 8 seconds ago                        
+qspujbk5wa7k        redis.4             redis:3.0.6         docker-vm10         Running             Running 7 seconds ago                        
+qd5g083yr5qj        redis.5             redis:3.0.6         docker-vm09         Running             Running 21 seconds ago                       
+ROUND 13
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+60aasu5j1xlu        redis.1             redis:3.0.6         docker-vm05         Running             Running 6 seconds ago                        
+mvb29fdv17yi        redis.2             redis:3.0.6         docker-vm12         Running             Running 6 seconds ago                        
+udexdm4oksfs        redis.3             redis:3.0.6         docker-vm09         Running             Running 14 seconds ago                       
+vwls5e98e2i6        redis.4             redis:3.0.6         docker-vm11         Running             Running 28 seconds ago                       
+0lel29d55o3c        redis.5             redis:3.0.6         docker-vm08         Running             Running 11 seconds ago                       
+ROUND 14
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+l0480enmbhuh        redis.1             redis:3.0.6         docker-vm12         Running             Running 5 seconds ago                        
+nevgfgu3x4k5        redis.2             redis:3.0.6         docker-vm09         Running             Running 13 seconds ago                       
+f46mx780dav6        redis.3             redis:3.0.6         docker-vm11         Running             Running 13 seconds ago                       
+kkri3p1l5pr5        redis.4             redis:3.0.6         docker-vm08         Running             Running 13 seconds ago                       
+ntp373dthq72        redis.5             redis:3.0.6         docker-vm05         Running             Running 7 seconds ago                        
+ROUND 15
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+l2akqdwnh5k1        redis.1             redis:3.0.6         docker-vm07         Running             Running 17 seconds ago                       
+csy7wdfek2j9        redis.2             redis:3.0.6         docker-vm10         Running             Running 7 seconds ago                        
+egg6g82t8mlm        redis.3             redis:3.0.6         docker-vm09         Running             Running 9 seconds ago                        
+krobc6bdd11s        redis.4             redis:3.0.6         docker-vm04         Running             Running 7 seconds ago                        
+4njwn9bwxosl        redis.5             redis:3.0.6         docker-vm06         Running             Running 15 seconds ago                       
+ROUND 16
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+robxfhis4cim        redis.1             redis:3.0.6         docker-vm04         Running             Running 5 seconds ago                        
+t23q2zetpvbb        redis.2             redis:3.0.6         docker-vm06         Running             Running 9 seconds ago                        
+slb8f9etkg8h        redis.3             redis:3.0.6         docker-vm12         Running             Running 14 seconds ago                       
+xpk5sxvn4pof        redis.4             redis:3.0.6         docker-vm10         Running             Running 6 seconds ago                        
+4liioe8sjkem        redis.5             redis:3.0.6         docker-vm07         Running             Running 11 seconds ago                       
+ROUND 17
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+od07pzxpuznn        redis.1             redis:3.0.6         docker-vm07         Running             Running 22 seconds ago                       
+v7jihv5sdk4m        redis.2             redis:3.0.6         docker-vm04         Running             Running 9 seconds ago                        
+9d8ylvvgh89y        redis.3             redis:3.0.6         docker-vm06         Running             Running 20 seconds ago                       
+t56414qvp9jk        redis.4             redis:3.0.6         docker-vm12         Running             Running 13 seconds ago                       
+8z611xx69qkj        redis.5             redis:3.0.6         docker-vm10         Running             Running 8 seconds ago                        
+ROUND 18
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+go18moxx5toh        redis.1             redis:3.0.6         docker-vm08         Running             Running 19 seconds ago                       
+b5512qnhtakr        redis.2             redis:3.0.6         docker-vm05         Running             Running 12 seconds ago                       
+i8b1dx2ih2hf        redis.3             redis:3.0.6         docker-vm12         Running             Running 6 seconds ago                        
+xws7g0q38nhl        redis.4             redis:3.0.6         docker-vm10         Running             Running 7 seconds ago                        
+m9428q8n6xlc        redis.5             redis:3.0.6         docker-vm11         Running             Running 19 seconds ago                       
+ROUND 19
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+6ycaky9fqown        redis.1             redis:3.0.6         docker-vm04         Running             Running 9 seconds ago                        
+vqqnhhub1w8d        redis.2             redis:3.0.6         docker-vm06         Running             Running 16 seconds ago                       
+sq9ojlqg23jz        redis.3             redis:3.0.6         docker-vm12         Running             Running 6 seconds ago                        
+jabrt0l2cy75        redis.4             redis:3.0.6         docker-vm10         Running             Running 5 seconds ago                        
+s8t95hctvsod        redis.5             redis:3.0.6         docker-vm07         Running             Running 18 seconds ago                       
+ROUND 20
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+kxxtn4xrs7rf        redis.1             redis:3.0.6         docker-vm12         Running             Running 6 seconds ago                        
+ndzl37588jtm        redis.2             redis:3.0.6         docker-vm10         Running             Running 6 seconds ago                        
+u8wh68bfh0bq        redis.3             redis:3.0.6         docker-vm09         Running             Running 17 seconds ago                       
+e8lltkpa2yq1        redis.4             redis:3.0.6         docker-vm08         Running             Running 17 seconds ago                       
+j8uafu20uedb        redis.5             redis:3.0.6         docker-vm05         Running             Running 13 seconds ago                       
+ROUND 21
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+ze60l87dfvgs        redis.1             redis:3.0.6         docker-vm11         Running             Running 10 seconds ago                       
+w2yldgeq4pm4        redis.2             redis:3.0.6         docker-vm08         Running             Running 5 seconds ago                        
+4q94t4vplpkl        redis.3             redis:3.0.6         docker-vm06         Running             Running 10 seconds ago                       
+8929dhihkkr0        redis.4             redis:3.0.6         docker-vm07         Running             Running 10 seconds ago                       
+sax6rr17znrr        redis.5             redis:3.0.6         docker-vm04         Running             Running 7 seconds ago                        
+ROUND 22
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+6647tzwlc65c        redis.1             redis:3.0.6         docker-vm04         Running             Running 6 seconds ago                        
+0pshwunna74q        redis.2             redis:3.0.6         docker-vm06         Running             Running 9 seconds ago                        
+cg51n6lhw828        redis.3             redis:3.0.6         docker-vm08         Running             Running 10 seconds ago                       
+2kgsj5tpbwdd        redis.4             redis:3.0.6         docker-vm05         Running             Running 11 seconds ago                       
+bo3gbbd1d63p        redis.5             redis:3.0.6         docker-vm07         Running             Running 8 seconds ago                        
+ROUND 23
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+t9gr50kdw3it        redis.1             redis:3.0.6         docker-vm10         Running             Running 10 seconds ago                       
+ezagtkdsgy7n        redis.2             redis:3.0.6         docker-vm09         Running             Running 14 seconds ago                       
+sek7j9tv6o3t        redis.3             redis:3.0.6         docker-vm11         Running             Running 14 seconds ago                       
+if16sjxvehzl        redis.4             redis:3.0.6         docker-vm05         Running             Running 5 seconds ago                        
+qcjnekdjcx3u        redis.5             redis:3.0.6         docker-vm12         Running             Running 7 seconds ago                        
+ROUND 24
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+zpb9lba1tj9l        redis.1             redis:3.0.6         docker-vm09         Running             Running 14 seconds ago                       
+nkmvo9ghx22t        redis.2             redis:3.0.6         docker-vm11         Running             Running 14 seconds ago                       
+ynujgg3xafp0        redis.3             redis:3.0.6         docker-vm08         Running             Running 22 seconds ago                       
+60w7lyegwkd5        redis.4             redis:3.0.6         docker-vm05         Running             Running 6 seconds ago                        
+b5f8igk4b5j0        redis.5             redis:3.0.6         docker-vm12         Running             Running 6 seconds ago                        
+ROUND 25
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+nb1n5bgtvx9p        redis.1             redis:3.0.6         docker-vm09         Running             Running 10 seconds ago                       
+z7dl67k0ob04        redis.2             redis:3.0.6         docker-vm08         Running             Running 10 seconds ago                       
+1pmgghzw58o1        redis.3             redis:3.0.6         docker-vm05         Running             Running 6 seconds ago                        
+faiick3760lt        redis.4             redis:3.0.6         docker-vm12         Running             Running 5 seconds ago                        
+bs4xtd9ze6fx        redis.5             redis:3.0.6         docker-vm10         Running             Running 13 seconds ago                       

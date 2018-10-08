@@ -1,0 +1,21 @@
+The total number of containers created was
+125
+How many times a VM was assigned a container?
+docker-vm04
+15
+docker-vm05
+16
+docker-vm06
+15
+docker-vm07
+15
+docker-vm08
+14
+docker-vm09
+12
+docker-vm10
+13
+docker-vm11
+9
+docker-vm12
+16
