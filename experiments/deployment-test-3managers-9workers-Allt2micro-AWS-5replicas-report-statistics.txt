@@ -1,0 +1,21 @@
+The total number of containers created was
+125
+How many times an instance was assigned a container?
+ip-10-10-1-98
+13
+ip-10-10-1-225
+13
+ip-10-10-1-232
+13
+ip-10-10-3-44
+13
+ip-10-10-3-64
+20
+ip-10-10-3-152
+13
+ip-10-10-5-176
+13
+ip-10-10-5-193
+14
+ip-10-10-5-250
+13

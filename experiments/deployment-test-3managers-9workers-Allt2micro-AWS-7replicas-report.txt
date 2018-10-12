@@ -1,0 +1,227 @@
+NUM_REPLICAS = 7
+Thu Oct 11 19:20:56 UTC 2018
+ROUND 1
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+l6c4chtaom9h        redis.1             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+1aiuu82z7hbw        redis.2             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+df522g4mfva3        redis.3             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+xnihehkgkd5v        redis.4             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+m8qqt9efwx0h        redis.5             redis:3.0.6         ip-10-10-1-232      Running             Running 5 seconds ago                       
+j09ok1snxozh        redis.6             redis:3.0.6         ip-10-10-3-44       Running             Running 5 seconds ago                       
+lsa6y7j4lcwd        redis.7             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+ROUND 2
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+xlub1u8rtr8l        redis.1             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+msx42qy4j9at        redis.2             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+yk0yu1u077zw        redis.3             redis:3.0.6         ip-10-10-3-44       Running             Running 5 seconds ago                       
+dvvzl5n9aivf        redis.4             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+vsqzwbqwrbdi        redis.5             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+4mevuwhv8rf9        redis.6             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+mtfkh9uaqc1y        redis.7             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+ROUND 3
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+tvocpv7fl4m9        redis.1             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+1ocris519b5j        redis.2             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+x9yc27x6w8gp        redis.3             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+fbuagf02s9tr        redis.4             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+61qn2j0gvc4t        redis.5             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+siktxwixdva0        redis.6             redis:3.0.6         ip-10-10-1-232      Running             Running 5 seconds ago                       
+z7rsfun2g5xc        redis.7             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+ROUND 4
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+98pi0uu2c3jl        redis.1             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+fvg42lt6ph8n        redis.2             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+bn1lulb6aavx        redis.3             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+voth9748lh4s        redis.4             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+v9fq10k6ngnk        redis.5             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+76p9frwgrgrq        redis.6             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+t2qqpsfdccrk        redis.7             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+ROUND 5
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+or8oiu74lei2        redis.1             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+son3kfe9n02f        redis.2             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+91c4e2nntsi0        redis.3             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+rpe2x2meytia        redis.4             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+qepwsqj2clzi        redis.5             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+fevod337ewap        redis.6             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+gsmwwg239ugs        redis.7             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+ROUND 6
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+wa9lgw4pxzrk        redis.1             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+mhyacebsvn1y        redis.2             redis:3.0.6         ip-10-10-1-232      Running             Running 5 seconds ago                       
+f81v1qisbycw        redis.3             redis:3.0.6         ip-10-10-3-44       Running             Running 5 seconds ago                       
+vnnnqqqx1eh6        redis.4             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+hg90agb21t4y        redis.5             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+xa132iif6yr5        redis.6             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+q1s8iy1t92ps        redis.7             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+ROUND 7
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+mywr3z3xas1p        redis.1             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+tfgu0evn3xqz        redis.2             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+bequ5ewgvuzh        redis.3             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+aa146g95o5cq        redis.4             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+vg11gxy4ov6u        redis.5             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+kvvusrbmrm1x        redis.6             redis:3.0.6         ip-10-10-1-232      Running             Running 5 seconds ago                       
+wo00dkpw0c9i        redis.7             redis:3.0.6         ip-10-10-3-44       Running             Running 5 seconds ago                       
+ROUND 8
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+vz9tbt2sra5k        redis.1             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+tl72torgfvox        redis.2             redis:3.0.6         ip-10-10-1-232      Running             Running 5 seconds ago                       
+9n0fy6rekbt1        redis.3             redis:3.0.6         ip-10-10-3-44       Running             Running 5 seconds ago                       
+7m82eh4g64r2        redis.4             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+vlx86nr2lmpr        redis.5             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+cfntqi2zp3j0        redis.6             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+uwjyuqam9q7z        redis.7             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+ROUND 9
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+91ab60fygn9v        redis.1             redis:3.0.6         ip-10-10-1-232      Running             Running 5 seconds ago                       
+ckzwvtnh7hg0        redis.2             redis:3.0.6         ip-10-10-3-44       Running             Running 5 seconds ago                       
+inf5enipb2ay        redis.3             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+b6adf8j5cn58        redis.4             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+pfc542ty4k5b        redis.5             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+xqa4j7um694j        redis.6             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+nq6chr3viigw        redis.7             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+ROUND 10
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+qxdgq16ydgs8        redis.1             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+siurv3w1pges        redis.2             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+lakwtzcecsts        redis.3             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+wzej0fix0b3x        redis.4             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+kannrr4km82d        redis.5             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+tkpud0ynn6dw        redis.6             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+eud8506hvofr        redis.7             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+ROUND 11
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+imp6m64gwg7o        redis.1             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+pwbehiegydc8        redis.2             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+kn0az5isa8iy        redis.3             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+bhbjaex4ht7h        redis.4             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+rs3kf4clxar4        redis.5             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+xva1f0fh24b3        redis.6             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+zqhefuphwfra        redis.7             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+ROUND 12
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+s4mu2hvrfslc        redis.1             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+sjdimuchp6hl        redis.2             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+2i4w9j5euhie        redis.3             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+lmuudws39ctt        redis.4             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+outrxqzoa36l        redis.5             redis:3.0.6         ip-10-10-1-232      Running             Running 5 seconds ago                       
+5b7csaa3nl0k        redis.6             redis:3.0.6         ip-10-10-3-44       Running             Running 5 seconds ago                       
+9uyhyb4q4oy1        redis.7             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+ROUND 13
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+tjwpwgx6bdki        redis.1             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+37mgetb1ifb3        redis.2             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+jtd9z5at8y41        redis.3             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+no4ycsk8nyr2        redis.4             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+ulhea9maqa43        redis.5             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+63k9afq31p6j        redis.6             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+ad31zch2afrd        redis.7             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+ROUND 14
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+7dldv73yis44        redis.1             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+j94a5zdxy797        redis.2             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+w212wniqzj47        redis.3             redis:3.0.6         ip-10-10-1-232      Running             Running 5 seconds ago                       
+sq2ptcx2bgmd        redis.4             redis:3.0.6         ip-10-10-3-44       Running             Running 5 seconds ago                       
+0qfsmxx5qvso        redis.5             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+7iu6okk3ody0        redis.6             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+k3p04ier1x5g        redis.7             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+ROUND 15
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+z7fmxuuyioza        redis.1             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+87nam33nnvvv        redis.2             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+4sxfywj2nudk        redis.3             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+h7qzekyjia93        redis.4             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+luxt4tptb9wj        redis.5             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+go615k67wlqh        redis.6             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+teuwheracgh1        redis.7             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+ROUND 16
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+m2kjhepc3gdo        redis.1             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+e336cgcw5wky        redis.2             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+ctul7sedujaa        redis.3             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+h1nmvu4pz9v9        redis.4             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+ehrlepm68r4h        redis.5             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+7ight5lg58ct        redis.6             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+k1asyl98vwc4        redis.7             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+ROUND 17
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+k13w66e18k57        redis.1             redis:3.0.6         ip-10-10-3-44       Running             Running 5 seconds ago                       
+qaksbq361rzp        redis.2             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+ka45cskv356r        redis.3             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+tcqgaz6ejzs0        redis.4             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+efqncvqv5v9f        redis.5             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+zmqgdtuoa5cu        redis.6             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+7nkkc5wt7ge1        redis.7             redis:3.0.6         ip-10-10-1-232      Running             Running 5 seconds ago                       
+ROUND 18
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+i0zi4btgl8ec        redis.1             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+txl14l74emyj        redis.2             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+u5laq3yjntmj        redis.3             redis:3.0.6         ip-10-10-1-232      Running             Running 5 seconds ago                       
+9y4pk2xe9hk4        redis.4             redis:3.0.6         ip-10-10-3-44       Running             Running 5 seconds ago                       
+sa9a4ml76dx8        redis.5             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+7ggtoa6ptgb8        redis.6             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+g6y6lj4d6w5x        redis.7             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+ROUND 19
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+42edlgu3fdwc        redis.1             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+ucgy558nbudt        redis.2             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+0t3gdqsvtg13        redis.3             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+cjsl72pdbzu8        redis.4             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+ymfhhq8oucv0        redis.5             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+ll7k6capv51t        redis.6             redis:3.0.6         ip-10-10-1-232      Running             Running 5 seconds ago                       
+r0tsntaivk8b        redis.7             redis:3.0.6         ip-10-10-3-44       Running             Running 5 seconds ago                       
+ROUND 20
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+7n2x736l2qnr        redis.1             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+yz52kkvh31w4        redis.2             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+w1lfmhbp06ml        redis.3             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+hw8b6t0opcgl        redis.4             redis:3.0.6         ip-10-10-1-232      Running             Running 5 seconds ago                       
+zjrcvthz6dhl        redis.5             redis:3.0.6         ip-10-10-3-44       Running             Running 5 seconds ago                       
+qux1cf5hctbn        redis.6             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+bsdg89htc85p        redis.7             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+ROUND 21
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+bl22heck9ob3        redis.1             redis:3.0.6         ip-10-10-3-44       Running             Running 5 seconds ago                       
+x42nbb23pcmm        redis.2             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+hg3ip0thredh        redis.3             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+52kevl5vry5j        redis.4             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+m2m18tiha6ps        redis.5             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+ckmzpjwriss9        redis.6             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+cdv22z9qae5r        redis.7             redis:3.0.6         ip-10-10-1-232      Running             Running 5 seconds ago                       
+ROUND 22
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+kzu95ktg5oe5        redis.1             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+8udhtkv9h8mv        redis.2             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+2pmrjdwbaw0j        redis.3             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+ajmmg29x9nf9        redis.4             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+ykqtmad7yptu        redis.5             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+zp5reqxltoi1        redis.6             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+r3to27avpd25        redis.7             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+ROUND 23
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+k59wqkmqhf84        redis.1             redis:3.0.6         ip-10-10-3-44       Running             Running 5 seconds ago                       
+ktl6vkp9r416        redis.2             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+u67352q3jlcx        redis.3             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+fpnd0eq4mp8k        redis.4             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+tms3vrqhi655        redis.5             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+g4hudpgey6xu        redis.6             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+i3tjhbygian7        redis.7             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+ROUND 24
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+ojmehpluhmjs        redis.1             redis:3.0.6         ip-10-10-5-250      Running             Running 5 seconds ago                       
+iu426zk9nndo        redis.2             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+m942bezq26jk        redis.3             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+p654y98n10g1        redis.4             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+rfpfld45anuh        redis.5             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
+x1qd24479wxj        redis.6             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+o5so6rzza7ki        redis.7             redis:3.0.6         ip-10-10-3-64       Running             Running 5 seconds ago                       
+ROUND 25
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+lvdrk6lase1p        redis.1             redis:3.0.6         ip-10-10-1-98       Running             Running 5 seconds ago                       
+7ug841fhp39w        redis.2             redis:3.0.6         ip-10-10-1-232      Running             Running 5 seconds ago                       
+kv9qizxgy5q2        redis.3             redis:3.0.6         ip-10-10-3-44       Running             Running 5 seconds ago                       
+hpxw0z34chm8        redis.4             redis:3.0.6         ip-10-10-5-176      Running             Running 5 seconds ago                       
+476tssapwnlk        redis.5             redis:3.0.6         ip-10-10-3-152      Running             Running 5 seconds ago                       
+s7sfpoitcwbi        redis.6             redis:3.0.6         ip-10-10-5-193      Running             Running 5 seconds ago                       
+n41lwbp95fq9        redis.7             redis:3.0.6         ip-10-10-1-225      Running             Running 5 seconds ago                       
