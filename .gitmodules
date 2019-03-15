@@ -4,3 +4,6 @@
 [submodule "docker-ce"]
 	path = docker-ce
 	url = https://github.com/docker/docker-ce.git
+[submodule "swarmkit"]
+	path = swarmkit
+	url = https://github.com/docker/swarmkit.git
