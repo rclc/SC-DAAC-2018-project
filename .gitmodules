@@ -1,3 +1,6 @@
 [submodule "moby"]
 	path = moby
 	url = https://github.com/moby/moby.git
+[submodule "docker-ce"]
+	path = docker-ce
+	url = https://github.com/docker/docker-ce.git
